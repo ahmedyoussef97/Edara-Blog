@@ -1,15 +1,15 @@
 :root{
-    --font-family: 'Nunito';
+    --font-family: 'GE Dinar One';
 
     // Color - Brand 
-     --color-primary: #EC0F68;
-     --color-primary-darken: #BF3E96;
+     --color-primary: #36A2DC;
+     --color-primary-darken: #2d82af;
      --color-primary-hover: #333;
      --color-primary-selected: rgba(20, 110, 245, .12);
      --color-primary-lightest: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9));    
 
-     --color-secondary: #3FD5F0;
-     --color-secondary-darken: #6FCBDC;
+     --color-secondary: #4F4F4F;
+     --color-secondary-darken: #414141;
     
      --color-white-0: #FFFFFF;
      --color-white-1: #FAFAFA;
@@ -19,9 +19,18 @@
      --color-black-0: #000;
      --color-black-1: #50555C;
      --color-black-2: #616161;
+     --color-black-3: #E5E5E5;
+     --color-black-4: #747474;
+
+     --color-yellow: #ffc401;
+
+     --color-green: #BDF5BC;
+
+     --color-purple: #CBBCF5;
 
      // Color - Navbar
      --color-navbar: var(--color-black-1);
      --color-navbar--hover: var(--color-primary);
 }
+
 

@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="header">
+        <a href="">
+            <h1 class="header__image">
+                <img src="./assets/images/logo.svg" alt="" class="header__brand">
+            </h1>
+        </a>
+        <div class="header__link">
+            <a href="" class="link-item">لماذا ادارة؟</a>
+            <a href="" class="link-item">الخصائص</a>
+            <a href="" class="link-item">الاسعار</a>
+            <a href="" class="link-item">المدونة</a>
+            <a href="" class="link-item link-item--button">طلب عرض توضيحى</a>
+        </div>
+    </div>
+</div>
+<hr class="header__break-line">
+<div class="container">
+    <div class="row justify-content-between">
+        <div class="main-header col-8">
+            <mat-tab-group animationDuration="0ms">
+                <mat-tab label="الرئيسية">
+                    <app-post></app-post>
+                </mat-tab>
+                <mat-tab label="تكنولوجيا">Content 2</mat-tab>
+                <mat-tab label="ريادة أعمال">Content 3</mat-tab>
+                <mat-tab label="جديد إدارة">Content 3</mat-tab>
+                <mat-tab label="قصص العملاء">Content 3</mat-tab>
+                <mat-tab label="جميع المقالات">Content 3</mat-tab>
+            </mat-tab-group>
+        </div>
+        <div class="search-form">
+            <form class="example-form">
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <div class="d-flex">
+                        <input type="text" matInput [matAutocomplete]="auto" placeholder="ابحث في المقالات">
+                        <mat-icon class="material-icons-outlined">
+                            search
+                        </mat-icon>
+                    </div>
+                    <mat-autocomplete #auto="matAutocomplete">
+                    </mat-autocomplete>
+                </mat-form-field>
+            </form>
+        </div>
+    </div>
+</div>

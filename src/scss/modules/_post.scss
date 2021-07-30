@@ -1,0 +1,27 @@
+.post {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: var(--border-radius-soft);
+}
+
+.post__tag {
+    font-size: var(--font-size-s);
+    padding: var(--space-xs) var(--space-s);
+    color: var(--color-black-0);
+    margin-left: var(--space-s);
+}
+
+.post__title {
+    color: var(--color-secondary);
+}
+
+.post__image {
+    width: 100%;
+}
+
+.post__time-text, .post__time {
+    color: var(--color-black-4);
+}
+
+.post__link {
+    text-decoration: none;
+}

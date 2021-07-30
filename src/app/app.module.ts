@@ -8,10 +8,14 @@ import { CoreModule } from '@core';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslateModule } from '@ngx-translate/core';
 import { SharedModule } from '@shared';
+import { HeaderComponent } from './header/header.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,
