@@ -10,12 +10,18 @@ import { TranslateModule } from '@ngx-translate/core';
 import { SharedModule } from '@shared';
 import { HeaderComponent } from './header/header.component';
 import { PostComponent } from './post/post.component';
+import { MainPostsComponent } from './main-posts/main-posts.component';
+import { ListPostComponent } from './list-post/list-post.component';
+import { PostDetailsComponent } from './post-details/post-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     PostComponent,
+    MainPostsComponent,
+    ListPostComponent,
+    PostDetailsComponent,
   ],
   imports: [
     BrowserModule,

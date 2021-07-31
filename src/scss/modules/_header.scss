@@ -48,21 +48,14 @@
 }
 
 .main-header {
-  .mat-tab-nav-bar, .mat-tab-header {
-    border: none;
-  }
-  .mat-tab-label-active {
-    color: var(--color-primary);
-    border: none;
-  }
-  .mat-tab-label {
-    padding: var(--space-none) var(--space-base);
-    width: auto;
-    min-width: auto;
-    opacity: 1;
-  }
-  .mat-tab-label-content {
+  .main-header__link {
     color: var(--color-secondary);
+    margin-left: var(--space-m);
+  }
+  
+  .main-header__link:hover {
+    color: var(--color-primary);
+    text-decoration: none;
   }
 }
 
@@ -70,10 +63,7 @@
   .mat-form-field-appearance-fill .mat-form-field-flex {
     border-radius: var(--border-radius-soft);
     background: none;
-    padding: var(--space-none);
-  }
-  .mat-form-field-appearance-fill .mat-form-field-infix {
-    padding-top: var(--space-none);
+    padding: var(--space-xs);
   }
   .mat-form-field-infix {
     width: auto;
